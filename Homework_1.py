@@ -4,8 +4,6 @@ words = ["apple","banana","kiwi","grape","melon","pear"]
 #     6: ["banana"],
 #     4: ["kiwi","pear"]
 # }
-
-
 def group_words_by_length(words: list) -> dict:
     '''
 

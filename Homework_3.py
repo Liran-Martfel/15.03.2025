@@ -5,7 +5,6 @@ from pprint import pprint
 #     "negative": [-2,-5],
 #     "zero": [0]
 # }
-
 def group_numbers(nums: list) -> dict:
     '''
     :param nums: list of numbers
@@ -18,7 +17,7 @@ def group_numbers(nums: list) -> dict:
         'positive': [],
         'negative': [],
         'zero': []
-    }
+              }
     for num in nums:
         if num > 0:
             #adding the number to the value 'num' with the key 'positive'
